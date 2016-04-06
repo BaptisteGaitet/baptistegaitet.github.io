@@ -1,0 +1,3 @@
+[submodule "MyLittleOldOne"]
+	path = MyLittleOldOne
+	url = https://github.com/BaptisteGaitet/MyLittleOldOne
