@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<title>My Little Old One</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/png" href="icon/icon.png"/>
+</head>
+<body onresize="onResize()" onmousemove="onMouseMove(event)" onmousedown="onMouseDown()" onmouseup="onMouseUp()">
+
+	<canvas id="game" height="600" width="800"></canvas>
+
+	<script src="tools/color.js"></script>
+	<script src="tools/window.js"></script>
+	<script src="tools/nameGenerator.js"></script>
+	<script src="tools/cookies.js"></script>
+	<script src="tools/mouseHandler.js"></script>
+	<script src="tools/soundManager.js"></script>
+	<script src="tools/noiseSpammer.js"></script>
+
+	<script src="logic/oldOne.js"></script>
+	
+	<script src="graphic/interface/button.js"></script>
+	<script src="graphic/interface/label.js"></script>
+	<script src="graphic/geometry/bezierCurveShape.js"></script>
+	<script src="graphic/geometry/circleShape.js"></script>
+	<script src="graphic/geometry/roundedLine.js"></script>
+	<script src="graphic/geometry/rectangleShape.js"></script>
+	<script src="graphic/specific/oldOneShape.js"></script>
+	<script src="graphic/specific/eyeShape.js"></script>
+	<script src="graphic/specific/bodyBumpShape.js"></script>
+	<script src="graphic/specific/tentacleShape.js"></script>
+	
+	<script src="states/gameState.js"></script>
+	<script src="states/mainMenuState.js"></script>
+
+	<script src="game.js"></script>
+
+	<p id="debug"></p>
+</body>
