@@ -20,7 +20,7 @@ img_panel.onload = function(){
 }
 
 var img_title = new Image();
-img_title.src = "img/title.png";
+img_title.src = "img/title.jpg";
 img_title.onload = function(){
 	console.log('img_title loaded');
 	loading ++;
@@ -174,7 +174,7 @@ img_area.onload = function(){
 }
 
 var img_gameover = new Image();
-img_gameover.src = "img/gameover.png";
+img_gameover.src = "img/gameover.jpg";
 img_gameover.onload = function(){
 	console.log('img_gameover loaded');
 	loading++;
